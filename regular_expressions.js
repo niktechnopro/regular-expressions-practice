@@ -72,6 +72,6 @@ function cleanUp(input){
 }
 
 
-for (let x = 0; x<phones.length; x++){  //iterating through phone array
-    console.log(cleanUp(phones[x]));
+for (x of phones){  //iterating through phone array
+    console.log(cleanUp(x));
 }
